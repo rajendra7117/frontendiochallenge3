@@ -1,0 +1,35 @@
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #fff;
+    border: none;
+    border-radius: 1rem;
+    position: absolute;
+    left: -80px;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 9rem;
+    padding: 1rem;
+}
+.menu-card span{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 2.4rem;
+    text-align: left;
+}
+.menu-card span img{
+    width: 1rem;
+    align-self: center;
+}
+.menu-card span h4{
+    opacity: 0.60;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 60%;
+}
